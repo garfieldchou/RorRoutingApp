@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get 'leadgen/advertising/asdf/lead', to: 'pages#contact', as: 'lead'
 
   resources :blogs
+
+  root to: 'pages#home'
 end
