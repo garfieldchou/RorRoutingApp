@@ -4,4 +4,7 @@ class PostsController < ApplicationController
 
   def missing
   end
+
+  def new
+  end
 end
