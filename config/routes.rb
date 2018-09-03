@@ -10,9 +10,8 @@ Rails.application.routes.draw do
   get 'leadgen/advertising/asdf/lead', to: 'pages#contact', as: 'lead'
 
   resources :blogs
-  resources :posts
-
   get 'posts/*missing', to: 'posts#missing'
+  resources :posts
 
   root to: 'pages#home'
 end
